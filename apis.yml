@@ -1,8 +1,25 @@
 aid: tivoli
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tivoli.png
 name: Tivoli
-description: 'Tivoli is a company surfaced as a portfolio company of norwest-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Tivoli Systems was an Austin, Texas systems-management software company
+  founded in 1989 that helped enterprises manage distributed client/server networks
+  of PCs and workstations. After a 1995 NASDAQ IPO (TIVS), IBM acquired Tivoli in
+  March 1996 for approximately $743 million, and it became the IBM Tivoli enterprise
+  systems and network management brand before IBM retired the name and folded its
+  products into other IBM software lines. A historic Norwest venture exit, Tivoli
+  no longer exists as an independent company and publishes no independent API surface;
+  tivoli.com is an IBM-held domain that redirects toward ibm.com.'
 url: https://raw.githubusercontent.com/api-evangelist/tivoli/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +27,24 @@ x-backed-by:
 - norwest-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: ibm
+x-acquisition-date: '1996-03-04'
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Unknown
+- Systems Management
+- IT Operations
+- Enterprise Software
+- Network Management
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +52,9 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/tivoli-domain-security.yml
+- type: LLMsTxt
+  url: llms/tivoli-llms.txt
 - type: Website
   url: https://tivoli.com

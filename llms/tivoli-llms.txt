@@ -1,0 +1,16 @@
+# Tivoli (Tivoli Systems)
+
+> Tivoli Systems was an Austin, Texas systems-management software company (founded 1989, IPO 1995 on NASDAQ as TIVS) acquired by IBM in March 1996 for approximately $743 million. It became the IBM Tivoli software brand for enterprise systems and network management; IBM later retired the Tivoli brand and folded its products into other IBM software lines. Tivoli no longer exists as an independent company and publishes no independent API surface — tivoli.com is an IBM-held domain whose www host redirects toward ibm.com and does not serve HTTPS.
+
+## Company
+
+- [Website (historic, IBM-held)](https://tivoli.com): domain does not respond over HTTPS; www.tivoli.com CNAMEs to redirect.www.ibm.com
+- [IBM](https://www.ibm.com): acquirer (March 1996); successor to all Tivoli products
+
+## APIs
+
+No public APIs are published under the Tivoli name. Successor management products are part of the IBM software portfolio.
+
+## Artifacts
+
+- [Domain security probe](security/tivoli-domain-security.yml): TLS/DNS posture of tivoli.com (no HTTPS; SPF and DMARC p=reject present; no DNSSEC/CAA)
